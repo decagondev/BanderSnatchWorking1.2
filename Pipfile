@@ -1,0 +1,26 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+altair = "*"
+certifi = "*"
+flask = "*"
+fortuna = "*"
+gunicorn = "*"
+jinja2 = "*"
+joblib = "*"
+jupyter = "*"
+numpy = "*"
+monsterlab = "*"
+pandas = "*"
+pymongo = {extras = ["srv"], version = "*"}
+python-dotenv = "*"
+scikit-learn = "*"
+scipy = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.11"
