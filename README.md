@@ -7,3 +7,5 @@
 - Mac and Linux users can use `./run.sh` script or type the command directly `python3 -m gunicorn app.main:APP`.
 - Feel free to modify the shell scripts to suit your needs, these are intended to run locally.
 - In any case you should not modify the Procfile, this is the run script for the remote server.
+
+  **Working Solution for Windows / Mac / Linux**
